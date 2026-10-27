@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Smart Eco-Safe Dual-Chamber Incinerator – Prototype</title>
+<style>
+:root{--bg:#e9edf0;--panel:#fff;--ink:#16222b;--mute:#5b6b76;--line:#c9d3da;--ember:#e8590c;--ok:#1b8a4b;--warn:#c98a00;--bad:#c92a2a;--steel:#7d8b95;--lcd:#b7d86a;--lcdink:#1d2a0a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12181d;--panel:#1c252c;--ink:#e6edf1;--mute:#93a3ae;--line:#2f3c46;--steel:#56646e}}
+:root[data-theme="dark"]{--bg:#12181d;--panel:#1c252c;--ink:#e6edf1;--mute:#93a3ae;--line:#2f3c46;--steel:#56646e}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 "Archivo","Segoe UI",system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding:16px}
+h1{font-size:1.35rem;line-height:1.2;margin:0 0 4px}
+p.sub{margin:0 0 14px;color:var(--mute);font-size:.92rem}
+.grid{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:14px}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px}
+svg{width:100%;height:auto;displa
